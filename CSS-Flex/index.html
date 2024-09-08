@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Properties Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- This is a comment in HTML --> 
+    <header>
+        <h1>Introduction to Flexbox</h1>
+        <p>
+            Flexbox, or the Flexible Box Layout, is a CSS layout model designed to make it easier to create complex and responsive web layouts. It allows items in a container to be dynamically sized and positioned, making it a powerful tool for modern web design.
+        </p>
+        <p>
+            The key concepts of Flexbox revolve around the main axis and the cross axis. The main axis is the primary direction in which flex items are laid out (either horizontally or vertically), while the cross axis is perpendicular to the main axis.
+        </p>
+        <p>
+            Flexbox provides properties to control the layout of items along these axes, including how they are spaced, aligned, and how they wrap when there is insufficient space. Understanding these properties will help you create more flexible and responsive designs.
+        </p>
+    </header>
+    
+    <div class="container flex-direction-container">
+        <p>
+            <strong>flex-direction</strong> - Defines the direction of the main axis (row or column).
+        </p>
+        <div class="axis main-axis"></div>
+        <div class="axis cross-axis"></div>
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+    </div>
+
+    <div class="container flex-wrap-container">
+        <p>
+            <strong>flex-wrap</strong> - Controls whether flex items should wrap onto multiple lines.
+        </p>
+        <div class="axis main-axis"></div>
+        <div class="axis cross-axis"></div>
+        <div class="flex-item">Wrap Item 1</div>
+        <div class="flex-item">Wrap Item 2</div>
+        <div class="flex-item">Wrap Item 3</div>
+        <div class="flex-item">Wrap Item 4</div>
+        <div class="flex-item">Wrap Item 5</div>
+        <div class="flex-item">Wrap Item 6</div>
+    </div>
+
+    <div class="container justify-content-container">
+        <p>
+            <strong>justify-content</strong> - Aligns flex items along the main axis.
+        </p>
+        <div class="axis main-axis"></div>
+        <div class="axis cross-axis"></div>
+        <div class="flex-item">Justify Item 1</div>
+        <div class="flex-item">Justify Item 2</div>
+        <div class="flex-item">Justify Item 3</div>
+        <div class="flex-item">Justify Item 4</div>
+    </div>
+
+    <div class="container align-items-container">
+        <p>
+            <strong>align-items</strong> - Aligns flex items along the cross axis.
+        </p>
+        <div class="axis main-axis"></div>
+        <div class="axis cross-axis"></div>
+        <div class="flex-item">Align Item 1</div>
+        <div class="flex-item">Align Item 2</div>
+        <div class="flex-item">Align Item 3</div>
+        <div class="flex-item">Align Item 4</div>
+    </div>
+
+    <div class="container align-content-container">
+        <p>
+            <strong>align-content</strong> - Aligns flex lines within the flex container.
+        </p>
+        <div class="axis main-axis"></div>
+        <div class="axis cross-axis"></div>
+        <div class="flex-item">Align Content 1</div>
+        <div class="flex-item">Align Content 2</div>
+        <div class="flex-item">Align Content 3</div>
+        <div class="flex-item">Align Content 4</div>
+    </div>
+</body>
+</html>

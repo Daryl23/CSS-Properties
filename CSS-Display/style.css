@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    background-color: rgba(127, 255, 212, 0.469);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid black; /* Added border for container */
+}
+
+/* Inline Example */
+.inline-container {
+    display: inline;
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    background-color: azure;
+    margin-right: 10px;
+}
+
+/* Inline-block Example */
+.inline-block-container {
+    display: inline-block;
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    background-color: lightcoral;
+    margin-right: 10px;
+}
+
+/* Block Example */
+.block-container {
+    display: block;
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+
+/* Flex Example */
+.flex-parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.flex-container {
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    background-color: lightgreen;
+}
+
+/* Grid Example */
+.grid-parent {
+    display: grid;
+    grid-template-columns: repeat(4, 60px); /* 4 columns, each 60px wide */
+    gap: 10px;
+}
+.grid-container {
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+/* Responsive Design */
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: lightgreen;
+    }
+}

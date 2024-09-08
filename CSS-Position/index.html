@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Properties Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- This is a comment in HTML --> 
+    <div class="container static-container">
+        <p>
+            <strong>Position: static</strong> - The default positioning for elements. Elements are positioned according to the normal document flow.
+        </p>
+        <div class="static-item">Static</div>
+        <div class="static-item">Static</div>
+        <div class="static-item">Static</div>
+        <div class="static-item">Static</div>
+    </div>
+
+    <div class="container relative-container">
+        <p>
+            <strong>Position: relative</strong> - The element is positioned relative to its normal position. You can use top, right, bottom, and left to move it from where it would normally be.
+        </p>
+        <div class="relative-item">Relative</div>
+        <div class="relative-item">Relative</div>
+        <div class="relative-item">Relative</div>
+        <div class="relative-item">Relative</div>
+    </div>
+
+    <div class="container absolute-container">
+        <p>
+            <strong>Position: absolute</strong> - The element is positioned relative to its closest positioned ancestor (one that has a position other than `static`), or relative to the initial containing block if no such ancestor exists.
+        </p>
+        <div class="absolute-item">Absolute</div>
+        <div class="absolute-item">Absolute</div>
+        <div class="absolute-item">Absolute</div>
+        <div class="absolute-item">Absolute</div>
+    </div>
+
+    <div class="container fixed-container">
+        <p>
+            <strong>Position: fixed</strong> - The element is positioned relative to the viewport. It stays in the same position even when the page is scrolled.
+        </p>
+        <div class="fixed-item">Fixed</div>
+        <div class="fixed-item">Fixed</div>
+        <div class="fixed-item">Fixed</div>
+        <div class="fixed-item">Fixed</div>
+    </div>
+
+    <div class="container sticky-container">
+        <p>
+            <strong>Position: sticky</strong> - The element is positioned based on the user's scroll position. It switches between `relative` and `fixed` depending on the scroll position.
+        </p>
+        <div class="sticky-item">Sticky</div>
+        <div class="sticky-item">Sticky</div>
+        <div class="sticky-item">Sticky</div>
+        <div class="sticky-item">Sticky</div>
+    </div>
+</body>
+</html>

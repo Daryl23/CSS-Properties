@@ -1,0 +1,138 @@
+/* General Styling */
+body {
+    background-color: rgba(127, 255, 212, 0.469);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid black; /* Border for container */
+    position: relative; /* Set to relative to see effect of absolute positioning */
+    box-sizing: border-box;
+}
+
+/* Axis Styling */
+.axis {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.main-axis {
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(255, 0, 0, 0.255);
+}
+
+.cross-axis {
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+/* Introductory Section Styling */
+header {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+/* Flex Direction */
+.flex-direction-container {
+    display: flex;
+    flex-direction: row; /* or column */
+    border: 2px solid black;
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+}
+
+.flex-direction-container .flex-item {
+    border: 1px solid black;
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 60px; /* Center text vertically */
+    height: 60px;
+    flex: 1 1 100px; /* Flex-grow, flex-shrink, flex-basis */
+}
+
+/* Flex Wrap */
+.flex-wrap-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+}
+
+.flex-wrap-container .flex-item {
+    border: 1px solid black;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 60px; /* Center text vertically */
+    height: 60px;
+    flex: 1 1 100px; /* Flex-grow, flex-shrink, flex-basis */
+}
+
+/* Justify Content */
+.justify-content-container {
+    display: flex;
+    justify-content: space-between; /* or center, flex-start, flex-end, space-around, space-evenly */
+}
+
+.justify-content-container .flex-item {
+    border: 1px solid black;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 60px; /* Center text vertically */
+    height: 60px;
+    flex: 1 1 100px; /* Flex-grow, flex-shrink, flex-basis */
+}
+
+/* Align Items */
+.align-items-container {
+    display: flex;
+    align-items: stretch; /* or flex-start, center, flex-end, baseline */
+}
+
+.align-items-container .flex-item {
+    border: 1px solid black;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    line-height: 60px; /* Center text vertically */
+    height: 60px;
+    flex: 1 1 100px; /* Flex-grow, flex-shrink, flex-basis */
+}
+
+/* Align Content */
+.align-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; /* or flex-start, flex-end, space-between, space-around, stretch */
+    height: 200px; /* Set height to see alignment effect */
+}
+
+.align-content-container .flex-item {
+    border: 1px solid black;
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 60px; /* Center text vertically */
+    height: 60px;
+    flex: 1 1 100px; /* Flex-grow, flex-shrink, flex-basis */
+}

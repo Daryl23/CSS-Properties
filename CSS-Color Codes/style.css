@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #55ddd4;
+    color: #000000;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #555;
+}
+
+.color-box {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #555;
+}
+
+.gradient-box {
+    height: 100px;
+    width: 100%;
+    margin: 10px 0;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #555;
+}

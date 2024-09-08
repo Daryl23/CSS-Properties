@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Properties Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- This is a comment in HTML -->
+    <h1>Color Properties Demo</h1>
+
+    <section>
+        <h2>Introduction to Color Values</h2>
+        <p>Colors in web design can be defined using various methods. Here are three common ways:</p>
+        <ul>
+            <li><strong>RGB (Red, Green, Blue):</strong> Defines colors based on the intensity of red, green, and blue light. Values range from 0 to 255. Example: <code>rgb(255, 0, 0)</code> for red.</li>
+            <li><strong>HEX (Hexadecimal):</strong> A six-digit code that represents colors. It combines red, green, and blue values in hexadecimal format. Example: <code>#FF0000</code> for red.</li>
+            <li><strong>HSL (Hue, Saturation, Lightness):</strong> Describes colors using hue (color type), saturation (color intensity), and lightness (brightness). Example: <code>hsl(0, 100%, 50%)</code> for red.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Color Palette</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Color</th>
+                    <th>RGB</th>
+                    <th>HEX</th>
+                    <th>HSL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="color-box" style="background-color: #000000; color: #FFFFFF;">Black</td>
+                    <td>rgb(0, 0, 0)</td>
+                    <td>#000000</td>
+                    <td>hsl(0, 0%, 0%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #FFFFFF; color: #000000;">White</td>
+                    <td>rgb(255, 255, 255)</td>
+                    <td>#FFFFFF</td>
+                    <td>hsl(0, 0%, 100%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #FF0000; color: #000000;">Red</td>
+                    <td>rgb(255, 0, 0)</td>
+                    <td>#FF0000</td>
+                    <td>hsl(0, 100%, 50%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #00FF00; color: #000000;">Lime</td>
+                    <td>rgb(0, 255, 0)</td>
+                    <td>#00FF00</td>
+                    <td>hsl(120, 100%, 50%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #0000FF; color: #FFFFFF;">Blue</td>
+                    <td>rgb(0, 0, 255)</td>
+                    <td>#0000FF</td>
+                    <td>hsl(240, 100%, 50%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #FFFF00; color: #000000;">Yellow</td>
+                    <td>rgb(255, 255, 0)</td>
+                    <td>#FFFF00</td>
+                    <td>hsl(60, 100%, 50%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #FF00FF; color: #000000;">Magenta</td>
+                    <td>rgb(255, 0, 255)</td>
+                    <td>#FF00FF</td>
+                    <td>hsl(300, 100%, 50%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #00FFFF; color: #000000;">Cyan</td>
+                    <td>rgb(0, 255, 255)</td>
+                    <td>#00FFFF</td>
+                    <td>hsl(180, 100%, 50%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #800000; color: #FFFFFF;">Maroon</td>
+                    <td>rgb(128, 0, 0)</td>
+                    <td>#800000</td>
+                    <td>hsl(0, 100%, 25%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #808000; color: #FFFFFF;">Olive</td>
+                    <td>rgb(128, 128, 0)</td>
+                    <td>#808000</td>
+                    <td>hsl(60, 100%, 25%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #008000; color: #FFFFFF;">Green</td>
+                    <td>rgb(0, 128, 0)</td>
+                    <td>#008000</td>
+                    <td>hsl(120, 100%, 25%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #800080; color: #FFFFFF;">Purple</td>
+                    <td>rgb(128, 0, 128)</td>
+                    <td>#800080</td>
+                    <td>hsl(300, 100%, 25%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #008080; color: #FFFFFF;">Teal</td>
+                    <td>rgb(0, 128, 128)</td>
+                    <td>#008080</td>
+                    <td>hsl(180, 100%, 25%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #C0C0C0; color: #000000;">Silver</td>
+                    <td>rgb(192, 192, 192)</td>
+                    <td>#C0C0C0</td>
+                    <td>hsl(0, 0%, 75%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #A52A2A; color: #FFFFFF;">Brown</td>
+                    <td>rgb(165, 42, 42)</td>
+                    <td>#A52A2A</td>
+                    <td>hsl(0, 59%, 41%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #D3D3D3; color: #000000;">Light Gray</td>
+                    <td>rgb(211, 211, 211)</td>
+                    <td>#D3D3D3</td>
+                    <td>hsl(0, 0%, 83%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #FFD700; color: #000000;">Gold</td>
+                    <td>rgb(255, 215, 0)</td>
+                    <td>#FFD700</td>
+                    <td>hsl(51, 100%, 50%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #FF6347; color: #000000;">Tomato</td>
+                    <td>rgb(255, 99, 71)</td>
+                    <td>#FF6347</td>
+                    <td>hsl(9, 100%, 64%)</td>
+                </tr>
+                <tr>
+                    <td class="color-box" style="background-color: #4682B4; color: #FFFFFF;">Steel Blue</td>
+                    <td>rgb(70, 130, 180)</td>
+                    <td>#4682B4</td>
+                    <td>hsl(207, 44%, 49%)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Color Functions</h2>
+        <p>Linear gradients create a smooth transition between multiple colors. The direction and spread of the gradient can be controlled with different settings:</p>
+        <ul>
+            <li><strong>Direction:</strong> Specifies the direction of the gradient, such as `to right`, `to bottom`, `to top left`, or using angles like `45deg`.</li>
+            <li><strong>Color Stops:</strong> Define specific colors at different points along the gradient. For example, <code>linear-gradient(to right, #FF0000 0%, #00FF00 100%)</code>.</li>
+        </ul>
+        <div class="gradient-box" style="background: linear-gradient(to right, #FF0000, #00FF00);">
+            Gradient: Red to Lime (right): linear-gradient(to right, #FF0000, #00FF00)
+        </div>
+        <div class="gradient-box" style="background: linear-gradient(to bottom, #0000FF, #FFFF00);">
+            Gradient: Blue to Yellow (bottom): linear-gradient(to bottom, #0000FF, #FFFF00)
+        </div>
+        <div class="gradient-box" style="background: linear-gradient(45deg, #FF6347, #4682B4);">
+            Gradient: Tomato to Steel Blue (45deg): linear-gradient(45deg, #FF6347, #4682B4)
+        </div>
+        <div class="gradient-box" style="background: linear-gradient(to top right, #FF4500, #00CED1);">
+            Gradient: Orange Red to Dark Turquoise (top right): linear-gradient(to top right, #FF4500, #00CED1)
+        </div>
+        <div class="gradient-box" style="background: linear-gradient(to bottom left, #FF1493, #FF8C00);">
+            Gradient: Deep Pink to Dark Orange (bottom left): linear-gradient(to bottom left, #FF1493, #FF8C00)
+        </div>
+    </section>
+</body>
+</html>

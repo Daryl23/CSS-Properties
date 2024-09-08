@@ -1,0 +1,74 @@
+/* Base font-size for the root element (html) */
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    color: #fff;
+}
+
+/* Adjust font size for the parent elements */
+section {
+    font-size: 12px; /* Set parent element's font size to 12px */
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #fff;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #444444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+}
+
+tbody td {
+    padding: 15px;
+    border: 1px solid #777;
+    text-align: center;
+}
+
+.box {
+    background-color: #f0f0f0;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    color: #333;
+    text-align: center;
+}
+
+.box-vw, .box-vh {
+    background-color: #e0e0e0;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    color: #333;
+}
+
+.box-vw {
+    width: 10vw;
+}
+
+.box-vh {
+    width: 10vh;
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+}

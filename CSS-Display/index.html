@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- This is a comment in HTML --> 
+    <div class="container">
+        <p>
+            <strong>Display: inline</strong> - Elements with `inline` display are placed in the same line, like text. Their width and height are dictated by content, and they do not start on a new line.
+        </p>
+        <div class="inline-container"></div>
+        <div class="inline-container"></div>
+        <div class="inline-container"></div>
+        <div class="inline-container"></div>
+    </div>
+
+    <div class="container">
+        <p>
+            <strong>Display: inline-block</strong> - Elements with `inline-block` display behave like inline elements but allow setting width and height. They flow like inline elements but can have dimensions like block elements.
+        </p>
+        <div class="inline-block-container"></div>
+        <div class="inline-block-container"></div>
+        <div class="inline-block-container"></div>
+        <div class="inline-block-container"></div>
+    </div>
+
+    <div class="container block-parent">
+        <p>
+            <strong>Display: block</strong> - Elements with `block` display take up the full width available and always start on a new line. Block elements respect width and height settings.
+        </p>
+        <div class="block-container"></div>
+        <div class="block-container"></div>
+        <div class="block-container"></div>
+        <div class="block-container"></div>
+    </div>
+
+    <div class="container flex-parent">
+        <p>
+            <strong>Display: flex</strong> - Elements with `flex` display are part of a flexible container, which arranges its children in a row or column. Flex allows for flexible sizing and alignment of items.
+        </p>
+        <div class="flex-container"></div>
+        <div class="flex-container"></div>
+        <div class="flex-container"></div>
+        <div class="flex-container"></div>
+    </div>
+
+    <div class="container grid-parent">
+        <p>
+            <strong>Display: grid</strong> - Elements with `grid` display are part of a grid container, which arranges its children into rows and columns, allowing complex layouts with precise control over placement.
+        </p>
+        <div class="grid-container"></div>
+        <div class="grid-container"></div>
+        <div class="grid-container"></div>
+        <div class="grid-container"></div>
+    </div>
+</body>
+</html>

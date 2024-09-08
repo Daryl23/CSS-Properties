@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Units Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Responsive Units Comparison</h1>
+
+    <section>
+        <h2>Introduction to Responsive Units</h2>
+        <p>Responsive units allow web pages to adapt to different screen sizes, improving readability and layout flexibility. Below is a table comparing the most commonly used responsive units in CSS:</p>
+    </section>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Unit</th>
+                <th>Description</th>
+                <th>Base Size</th>
+                <th>Example Size</th>
+                <th>View on Screen</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>px (Pixels)</td>
+                <td>Absolute unit; fixed size regardless of viewport</td>
+                <td>-</td>
+                <td>12px</td>
+                <td class="box" style="width: 12px;">12px</td>
+            </tr>
+            <tr>
+                <td>em</td>
+                <td>Relative to the font-size of the parent element</td>
+                <td>Parent element font-size (12px)</td>
+                <td>2em (24px based on 12px parent)</td>
+                <td class="box" style="width: 24px;">2em</td>
+            </tr>
+            <tr>
+                <td>rem</td>
+                <td>Relative to the root (html) element's font-size</td>
+                <td>Root element font-size (12px)</td>
+                <td>2rem (24px based on 12px root)</td>
+                <td class="box" style="width: 24px;">2rem</td>
+            </tr>
+            <tr>
+                <td>vw (Viewport Width)</td>
+                <td>Percentage of the viewport width</td>
+                <td>100vw = full width of the viewport</td>
+                <td>10vw (10% of viewport width)</td>
+                <td class="box-vw">10vw</td>
+            </tr>
+            <tr>
+                <td>vh (Viewport Height)</td>
+                <td>Percentage of the viewport height</td>
+                <td>100vh = full height of the viewport</td>
+                <td>10vh (10% of viewport height)</td>
+                <td class="box-vh">10vh</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <section>
+        <p>Resize the window to see the effect of `vw` and `vh` on the size of the boxes. For `em` and `rem`, notice how the sizes differ when relative to the parent or root element.</p>
+    </section>
+</body>
+</html>

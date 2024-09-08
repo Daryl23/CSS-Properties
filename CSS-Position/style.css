@@ -1,0 +1,91 @@
+/* General Styling */
+body {
+    background-color: rgba(127, 255, 212, 0.469);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid black; /* Border for container */
+    position: relative; /* Set to relative to see effect of absolute positioning */
+    height: 150px;
+    overflow: auto; /* Allow scrolling if content overflows */
+    box-sizing: border-box;
+}
+
+/* Static Position */
+.static-item {
+    position: static; /* Default positioning */
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    background-color: azure;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px; /* Center text vertically */
+}
+
+/* Relative Position */
+.relative-item {
+    position: relative;
+    top: 10px; /* Move down 10px from its normal position */
+    left: 10px; /* Move right 10px from its normal position */
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    background-color: lightcoral;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px; /* Center text vertically */
+}
+
+/* Absolute Position */
+.absolute-item {
+    position: absolute;
+    top: 10px; /* Move down 10px from the top of the container */
+    left: 10px; /* Move right 10px from the left of the container */
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    background-color: lightblue;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px; /* Center text vertically */
+}
+
+/* Fixed Position */
+.fixed-item {
+    position: fixed;
+    top: 10px; /* Move down 10px from the top of the viewport */
+    left: 10px; /* Move right 10px from the left of the viewport */
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    background-color: lightgreen;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px; /* Center text vertically */
+}
+
+/* Sticky Position */
+.sticky-item {
+    position: sticky;
+    top: 10px; /* Sticky position starts 10px from the top of its container */
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    background-color: lightgoldenrodyellow;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px; /* Center text vertically */
+}
+
+/* Responsive Design */
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: lightgreen;
+    }
+}
